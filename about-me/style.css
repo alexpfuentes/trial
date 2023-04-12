@@ -1,0 +1,93 @@
+:root {
+  --primary-color: rgb(51, 0, 131);
+  --secondary-color: rgb(144, 17, 105);
+  --third-color: white;
+  --box-shadow: 0 0 10px #777777;
+}
+
+body {
+  margin: 40px;
+  background: radial-gradient(circle at 52.1% -29.6%,
+      rgb(144, 17, 105) 0%,
+      rgb(51, 0, 131) 100.2%);
+  background-attachment: fixed;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 98px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  background: var(--third-color);
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
+  box-shadow: var(--box-shadow);
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-link {
+  background: var(--primary-color);
+  color: var(--third-color);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background: var(--secondary-color);
+  color: var(--third-color);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.email-link {
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}

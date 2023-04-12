@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock</title>
+  </head>
+     <div class="container">
+      <div class="world-clock">
+        <h1>World Clock</h1>
+        <select name="city" id="city">
+          <option value="">Select a city...</option>
+          <option value="current">My current location</option>
+          <option value="America/New_York">New York</option>
+          <option value="Europe/London">London</option>
+          <option value="Europe/Paris">Paris</option>
+        </select>
+        <div id="cities">
+
+          <div class="city" id="kyle">
+            <div>
+              <h2>Kyle</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
+          <div class="city" id="los-angeles">
+            <div>
+              <h2>Los Angeles</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
+          <div class="city" id="maracaibo">
+            <div>
+              <h2>Maracaibo</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        Coded by <strong>Alex Fuentes</strong>,
+        <a
+          href="https://github.com/alexpfuentes/world-clock-project.git"
+          >open source code</a
+        >
+        <div class="back">
+        <a href="../index.html">Go back to weather</a>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
