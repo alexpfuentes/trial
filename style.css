@@ -1,101 +1,93 @@
+:root {
+  --primary-color: rgb(51, 0, 131);
+  --secondary-color: rgb(144, 17, 105);
+  --third-color: white;
+  --box-shadow: 0 0 10px #777777;
+}
+
 body {
-
-  background: radial-gradient(circle at 25% 50%, rgb(252, 239, 183) 20%, rgb(194, 223, 252) 80%);
-  font-family: 'Poppins', sans-serif;
+  margin: 40px;
+  background: radial-gradient(circle at 52.1% -29.6%,
+      rgb(144, 17, 105) 0%,
+      rgb(51, 0, 131) 100.2%);
+  background-attachment: fixed;
 }
 
-.weather-app-wrapper {
-  max-width: 700px;
-  margin: 30px auto;
-}
-
-.weather-app {
-  background-color: rgb(243, 249, 255);
-  max-width: 700px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid #dadde1;
+.container {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0 8px grey;
+  max-width: 600px;
 }
 
 h1 {
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-ul {
+  font-size: 98px;
   margin: 0;
-  padding: 0;
 }
 
-li {
-  list-style: none;
-  color: #878787;
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 30px;
+h2 {
+  font-size: 48px;
+  margin: 0;
 }
 
-li:first-letter {
-  text-transform: capitalize;
+h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  opacity: 0.7;
 }
 
-.description {
-  font-size: large;
+p {
+  text-align: justify;
+  font-size: 18px;
+  background: var(--third-color);
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
+  box-shadow: var(--box-shadow);
 }
 
-.big-icon {
-  width: 100px;
-  margin-left: 15px;
-}
-
-.weather-temperature strong {
-  font-size: 65px;
-  font-weight: 500;
-}
-
-.weather-temperature .unit {
-  position: relative;
-  top: -34px;
-}
-
-.condition {
-  margin-top: 15px;
-  color: #878787;
-}
-
-.weather-forecast {
-  margin-top: 30px;
-  text-align: center;
-  color: #000;
-  background-color: white;
-  border: 1px solid #dadde1;
-  box-shadow: 0 0 6px #dadde1;
-  border-radius: 20px;
-}
-
-.weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
-}
-
-.weather-forecast-temperatures {
-  font-size: 13px;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.5;
-}
-
-.small-icon {
-  width: 50px;
-}
-
-.others {
-  margin-top: 20px;
+.info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-link {
+  background: var(--primary-color);
+  color: var(--third-color);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background: var(--secondary-color);
+  color: var(--third-color);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.email-link {
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
