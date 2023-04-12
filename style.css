@@ -91,3 +91,9 @@ a {
   color: var(--secondary-color);
   text-decoration: underline;
 }
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
