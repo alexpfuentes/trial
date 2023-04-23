@@ -3,6 +3,7 @@
   --secondary-color: rgb(144, 17, 105);
   --third-color: white;
   --box-shadow: 0 0 10px #777777;
+  --container-color: rgb(255, 255, 255, 0.8);
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 .container {
   margin: 0 auto;
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: var(--container-color);
   text-align: center;
   padding: 30px;
   border-radius: 20px;
