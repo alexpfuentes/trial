@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 40px;
+  margin: 100px 30px 30px 30px;
   background: radial-gradient(circle at 52.1% -29.6%,
       rgb(144, 17, 105) 0%,
       rgb(51, 0, 131) 100.2%);
